@@ -3,7 +3,7 @@
   <header class="page-header">
     <h1>My Cart</h1>
   </header>
-
+  <% if enhanced_cart.length > 0 %>
   <div class="panel panel-default items">
     <table class="table table-bordered">
       <thead>
@@ -48,5 +48,8 @@
       <% end %>
     </div>
   </div>
-
+  <% else %>
+  <div class="alert alert-danger" role="alert"> ⚠️ Currently, No Items in your cart! ⚠️ </div>
+  <%= link_to "🔙 Main Page: to add items", :root %>  
+  <% end %>
 </section>
