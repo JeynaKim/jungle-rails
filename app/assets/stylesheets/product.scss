@@ -87,5 +87,11 @@
       font-weight: 700;
       text-align: center;
     }
+    .soldout-btn {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+    }
   }
 }
