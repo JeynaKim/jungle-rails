@@ -5,9 +5,26 @@
   </header>
 
   <div class="order-summary jumbotron">
-    <h4>Thank you for your order!</h4>
+    <h3>Order Summary</h3>
+    <h4>Thank you for your order! <%= @order.email %></h4>
+    <table class= "table table-bordered">
+      <thead>
+        <tr>
+          <th>Product Name</th>
+          <th>Image</th>
+          <th>Description</th>
+          <th>Quantity</th>
+          <th>Price</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <%= render partial: 'line_item', collection: @order.line_items, as: :item %>
+      </tbody>
+    </table>
+    <div>
+      <h4>Total: <%= humanized_money_with_symbol @order.total_cents / 100.0 %> </h4>
+    </div>
   </div>
-
   <%= link_to "Continue Shopping", root_path, class: 'btn btn-lg btn-primary' %>
-
 </section>

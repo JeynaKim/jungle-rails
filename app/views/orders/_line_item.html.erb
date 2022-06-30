@@ -1,0 +1,8 @@
+<tr>
+  <td><%= item.product.name %></td>
+  <td><%= image_tag item.product.image.tiny.url %></td>
+  <td><%= item.product.description %></td>
+  <td><%= item.quantity %></td>
+  <td><%= humanized_money_with_symbol item.product.price %></td> 
+  <td><%= humanized_money_with_symbol item.product.price * item.quantity %></td>
+</tr>
