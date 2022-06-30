@@ -9,9 +9,7 @@
   <div>
   
   <% if product.quantity.to_i == 0 %>
-    <div>
-      <p class="soldout">Sold Out</p>
-    </div>
+    <p class="soldout">Sold Out</p>
 
   <%= button_to add_item_cart_path(product_id: product.id), class: 'btn disabled' ,
   method: :post do %>

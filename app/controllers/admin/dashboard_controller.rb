@@ -7,3 +7,4 @@ class Admin::DashboardController < ApplicationController
     @categories = Category.all
   end
 end
+
