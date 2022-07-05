@@ -8,7 +8,7 @@ RSpec.describe Product, type: :model do
       @product = Product.new(price: 15, quantity: 10, category: @category)
       @product.save 
       expect(@product.errors.full_messages).to include ("Name can't be blank")
-  end 
+    end 
 
     it "should not save the new price information, if there is no price present" do
       @category = Category.new(name: "test")
