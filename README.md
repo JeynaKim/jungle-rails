@@ -4,20 +4,20 @@ A mini e-commerce application built with Rails 6.1. The goal of this project was
 
 ## Final Product
 
-_Jungle Main Page with sold-out items
+_Jungle Main Page with Sold-Out Items_
 ![Main_Page](https://user-images.githubusercontent.com/100962211/177429224-dc48852d-3ee0-42b5-8d3b-af52387ae195.png)
 
-_Products Details
+_Products Details_
 ![Product_Details](https://user-images.githubusercontent.com/100962211/177429238-6bac9860-d290-4bea-b416-bc556c6486b7.png)
 
-_My Cart Page 
-![My_Cart](https://user-images.githubusercontent.com/100962211/177429260-8bfb069d-6dd4-4950-bf04-cf8d82e0d013.png)
-
-_About Us Page 
+_About Us Page_ 
 ![About_Us](https://user-images.githubusercontent.com/100962211/177429280-a9dfd9fe-2054-492a-ac32-44a38281203a.png)
 
-_Admin / Products Page 
+_Admin / Products Page_
 ![Admin_Product](https://user-images.githubusercontent.com/100962211/177429298-a0b3022e-c0e9-422c-b413-adc078aed7da.png)
+
+_My Cart Page_
+![My_Cart](https://user-images.githubusercontent.com/100962211/177429260-8bfb069d-6dd4-4950-bf04-cf8d82e0d013.png)
 
 ## Main Features (Developed)
 
