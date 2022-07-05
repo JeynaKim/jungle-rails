@@ -1,6 +1,27 @@
 # Jungle
 
-A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 6.1. The goal of this project was to use existing code style and approach to implement new features in unfamiliar territory.
+
+## Final Product
+
+_Jungle Main Page with sold-out items
+![Main Page](./docs/Main_Page.png) 
+_Products Details
+![Product Details](./docs/Product_Details.png)
+_My Cart Page 
+![My Cart](./docs/My_Cart.png)
+_About Us Page 
+![About Us](./docs/About_Us.png)
+_Admin / Products Page 
+![Admin/Products](./docs/Admin_Product.png)
+## Main Features (Developed)
+
+- Feature: Sold Out Badge
+- Feature: Admin Categories
+- Feature: User Authentication
+- Enhancement: Order Details Page
+- Bug Fix: Missing Admin Security
+- Bug Fix: Checking Out with Empty Cart
 
 ## Setup
 
@@ -16,16 +37,15 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
 ## Database
 
 If Rails is complaining about authentication to the database, uncomment the user and password fields from `config/database.yml` in the development and test sections, and replace if necessary the user and password `development` to an existing database user.
-
 ## Stripe Testing
 
 Use Credit Card # 4111 1111 1111 1111 for testing success scenarios.
-
 More information in their docs: <https://stripe.com/docs/testing#cards>
-
 ## Dependencies
 
 - Rails 6.1 [Rails Guide](http://guides.rubyonrails.org/v6.1/)
+- Webpack
 - Bootstrap 5
 - PostgreSQL 9.x
 - Stripe
+- Cypress
